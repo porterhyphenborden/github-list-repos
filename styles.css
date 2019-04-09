@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 600px;
+    margin: 0 10px;
+  }
+
+  p {
+    margin: 0 10px;
+    font-size: 20px;
+    color: rgb(173, 29, 4);
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  label, input {
+    display: block;
+  }
+  
+  input {
+    margin: 10px 0;
+    width: 200px;
+  }
+
+  .results {
+    display: none;
+  }

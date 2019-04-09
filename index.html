@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TEMPLATE</title>
+  <meta name="description" content="DESCRIPTION">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <body>
+        <header>
+          <h1>Search for User Repositories</h1>
+        </header>
+        <main role="main">
+            <form>
+                <fieldset>
+                <label for="user-search">Enter a username you would like to see repositories for.</label> 
+                <input type="text" id="user-search" name="user-search" placeholder="username" required>
+                <button type="submit">Get repos</button>
+                </fieldset>
+            </form>
+            <p class="error-message"></p>
+            <section class="results">
+                <h2>Here are the repos for <span class="search-name"></span>:</h2>
+                <ul class="results-list">
+                </ul>
+            </section>
+            </main>
+            <script src="script.js"></script>
+      </body>
+</body>
+</html>
